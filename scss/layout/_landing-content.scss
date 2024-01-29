@@ -1,0 +1,83 @@
+.landing {
+  width: 100%;
+  height: 100%;
+  background: url(https://hoanganf8.github.io/htmlcss_project02/image/landing-background.jpg)
+    no-repeat 0;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  &-content {
+    width: 584px;
+    position: absolute;
+    top: 14%;
+    left: 13%;
+  }
+
+  &-img {
+    text-align: center;
+  }
+
+  &__sub-heading {
+    position: relative;
+    bottom: -8px;
+    margin-top: 28px;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  &__heading {
+    text-align: center;
+    font-family: "Titillium Web";
+    font-size: 10.4rem;
+    font-weight: 900;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  &__desc {
+    width: 374.09px;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 133.333%;
+    color: #fff;
+  }
+
+  &__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 91px;
+  }
+
+  &__switch-tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 54px;
+    color: #3e3f5e;
+    font-size: 1.6rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  &__switch-tab-login {
+    border-radius: 12px 0px 0px 12px;
+    border: 1px solid #fff;
+    background: #fff;
+  }
+
+  &__switch-tab-register {
+    border-radius: 0px 12px 12px 0px;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+}

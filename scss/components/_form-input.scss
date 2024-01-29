@@ -1,0 +1,108 @@
+.form {
+  &-row {
+    position: relative;
+
+    &__lbl {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 0 5px;
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: #adafca;
+      transition: font-size 0.2s, top 0.4s;
+    }
+
+    &__input {
+      width: 100%;
+      height: 54px;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #dedeea;
+      background: #fff;
+      appearance: none;
+    }
+
+    &__input:focus + &__lbl {
+      text-align: center;
+      top: 0;
+      font-size: 1.2rem;
+      background: #fff;
+    }
+
+    &__input:focus {
+      border-color: #615dfa;
+    }
+
+    &__input-email {
+      margin-top: 76px;
+    }
+
+    &__input-password {
+      margin-top: 20px;
+    }
+
+    &__between {
+      margin-top: 29px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &__lbl-check {
+      position: relative;
+      margin-left: 34px;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #3e3f5e;
+    }
+
+    &__lbl-check::before {
+      position: absolute;
+      top: -3px;
+      content: "";
+      display: block;
+      width: 22px;
+      height: 22px;
+      border-radius: 6px;
+      border: 1px solid #dedeea;
+    }
+
+    &__lbl-close {
+      position: absolute;
+      display: block;
+      top: 1.8px;
+      left: 4.4px;
+    }
+
+    &__input-check:checked + &__lbl-check::before {
+      background: #23d2e2;
+    }
+
+    &__forgot-password {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: #adafca;
+    }
+
+    &__btn {
+      margin-top: 30px;
+      width: 356px;
+      height: 54px;
+      border-radius: 10px;
+      background: #615dfa;
+      box-shadow: 4px 7px 12px 0px rgba(97, 93, 250, 0.2);
+      color: #fff;
+      text-align: center;
+      font-size: 1.4rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background-color 0.2s;
+    }
+
+    &__btn:hover {
+      background: #5651f5;
+    }
+  }
+}

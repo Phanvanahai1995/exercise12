@@ -1,0 +1,26 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: transparent;
+  font-family: "Rajdhani", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+input,
+button {
+  outline: 0;
+  border: 0;
+}
