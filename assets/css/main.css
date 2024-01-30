@@ -1204,6 +1204,17 @@ button {
   top: 0;
   left: 0;
 }
+@media (max-width: 1399.98px) {
+  .landing {
+    position: static;
+    padding: 80px 100px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .landing {
+    padding: 40px;
+  }
+}
 .landing-decorate {
   width: 64%;
   height: 140%;
@@ -1224,11 +1235,10 @@ button {
   top: 14%;
   left: 13%;
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 1399.98px) {
   .landing-content {
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: static;
+    margin: 0 auto;
   }
 }
 .landing-img {
@@ -1265,7 +1275,7 @@ button {
   text-transform: uppercase;
   color: #fff;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
   .landing__heading {
     font-size: 4rem;
   }
@@ -1306,7 +1316,7 @@ button {
   font-weight: 700;
   cursor: pointer;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 575.98px) {
   .landing__switch-tab {
     width: 120px;
     height: 34px;
@@ -1324,7 +1334,7 @@ button {
 }
 
 .landing-form {
-  width: 484px;
+  max-width: 484px;
   height: 100%;
   position: absolute;
   top: 0;
@@ -1332,22 +1342,9 @@ button {
 }
 @media (max-width: 1399.98px) {
   .landing-form {
-    right: 5%;
-  }
-}
-@media (max-width: 1199.98px) {
-  .landing-form {
-    position: fixed;
-    margin-top: 100px;
-    top: 200px;
-    right: 50%;
-    transform: translateX(50%);
-  }
-}
-@media (max-width: 767.98px) {
-  .landing-form {
-    margin-top: -15px;
-    width: 80%;
+    width: 100%;
+    position: static;
+    margin: 50px auto 0 auto;
   }
 }
 .landing-form__login {
@@ -1358,6 +1355,11 @@ button {
   border-radius: 12px;
   box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
   background: #fff;
+}
+@media (max-width: 1399.98px) {
+  .landing-form__login {
+    position: static;
+  }
 }
 @media (max-width: 575.98px) {
   .landing-form__login {
@@ -1456,7 +1458,7 @@ button {
   position: absolute;
   top: 0;
   right: -485px;
-  max-width: 100%;
+  width: 100%;
   padding: 64px;
   border-radius: 12px;
   box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
@@ -1464,9 +1466,10 @@ button {
   opacity: 0;
   visibility: hidden;
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 1399.98px) {
   .landing-form__register {
-    top: 50px;
+    position: static;
+    margin-top: -570px;
   }
 }
 @media (max-width: 991.98px) {
@@ -1477,6 +1480,7 @@ button {
 @media (max-width: 575.98px) {
   .landing-form__register {
     padding: 20px;
+    margin-top: -370px;
   }
 }
 .landing-form__img-register {

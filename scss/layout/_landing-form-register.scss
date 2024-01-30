@@ -5,7 +5,7 @@
     position: absolute;
     top: 0;
     right: -485px;
-    max-width: 100%;
+    width: 100%;
     padding: 64px;
     border-radius: 12px;
     box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
@@ -13,8 +13,9 @@
     opacity: 0;
     visibility: hidden;
 
-    @include abstracts.screen(xl) {
-      top: 50px;
+    @include abstracts.screen(xxl) {
+      position: static;
+      margin-top: -570px;
     }
 
     @include abstracts.screen(lg) {
@@ -23,6 +24,7 @@
 
     @include abstracts.screen(sm) {
       padding: 20px;
+      margin-top: -370px;
     }
   }
 

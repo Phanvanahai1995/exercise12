@@ -10,6 +10,15 @@
   top: 0;
   left: 0;
 
+  @include abstracts.screen(xxl) {
+    position: static;
+    padding: 80px 100px;
+  }
+
+  @include abstracts.screen(xl) {
+    padding: 40px;
+  }
+
   &-decorate {
     width: 64%;
     height: 140%;
@@ -31,10 +40,9 @@
     top: 14%;
     left: 13%;
 
-    @include abstracts.screen(xl) {
-      top: 30px;
-      left: 50%;
-      transform: translateX(-50%);
+    @include abstracts.screen(xxl) {
+      position: static;
+      margin: 0 auto;
     }
   }
 
@@ -72,7 +80,7 @@
     text-transform: uppercase;
     color: #fff;
 
-    @include abstracts.screen(md) {
+    @include abstracts.screen(sm) {
       font-size: 4rem;
     }
   }
@@ -112,7 +120,7 @@
     font-weight: 700;
     cursor: pointer;
 
-    @include abstracts.screen(md) {
+    @include abstracts.screen(sm) {
       width: 120px;
       height: 34px;
     }
