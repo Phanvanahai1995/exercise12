@@ -1,13 +1,14 @@
 @use "../abstracts";
 
 .landing-form {
-  max-width: 484px;
+  width: 484px;
   height: 100%;
   position: absolute;
   top: 0;
   right: 13%;
 
   @include abstracts.screen(xxl) {
+    max-width: 484px;
     width: 100%;
     position: static;
     margin: 50px auto 0 auto;
