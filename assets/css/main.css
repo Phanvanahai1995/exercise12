@@ -1332,14 +1332,14 @@ button {
 }
 @media (max-width: 1199.98px) {
   .landing-form {
-    top: 35%;
+    top: 70%;
     left: 50%;
     transform: translateX(-50%);
   }
 }
 @media (max-width: 767.98px) {
   .landing-form {
-    top: 30%;
+    top: 50%;
     width: 80%;
   }
 }
@@ -1354,6 +1354,7 @@ button {
 }
 @media (max-width: 575.98px) {
   .landing-form__login {
+    top: 0;
     padding: 20px;
   }
 }

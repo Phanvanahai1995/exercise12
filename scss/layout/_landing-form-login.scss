@@ -12,13 +12,13 @@
   }
 
   @include abstracts.screen(xl) {
-    top: 35%;
+    top: 70%;
     left: 50%;
     transform: translateX(-50%);
   }
 
   @include abstracts.screen(md) {
-    top: 30%;
+    top: 50%;
     width: 80%;
   }
 
@@ -32,6 +32,7 @@
     background: #fff;
 
     @include abstracts.screen(sm) {
+      top: 0;
       padding: 20px;
     }
   }
