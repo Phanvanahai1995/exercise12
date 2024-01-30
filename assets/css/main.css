@@ -1352,11 +1352,6 @@ button {
   box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
   background: #fff;
 }
-@media (max-width: 1199.98px) {
-  .landing-form__login {
-    top: 0;
-  }
-}
 @media (max-width: 575.98px) {
   .landing-form__login {
     padding: 20px;

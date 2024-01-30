@@ -31,10 +31,6 @@
     box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
     background: #fff;
 
-    @include abstracts.screen(xl) {
-      top: 0;
-    }
-
     @include abstracts.screen(sm) {
       padding: 20px;
     }
