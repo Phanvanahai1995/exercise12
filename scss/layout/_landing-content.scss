@@ -29,7 +29,7 @@
     top: -20%;
     right: -32%;
 
-    @include abstracts.screen(xl) {
+    @include abstracts.screen(xxl) {
       display: none;
     }
   }
