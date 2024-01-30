@@ -1232,8 +1232,8 @@ button {
 .landing-content {
   max-width: 584px;
   position: absolute;
-  top: 14%;
-  left: 13%;
+  top: 15%;
+  left: 17%;
 }
 @media (max-width: 1399.98px) {
   .landing-content {
@@ -1289,7 +1289,7 @@ button {
   line-height: 133.333%;
   color: #fff;
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 1399.98px) {
   .landing__desc {
     display: none;
   }
@@ -1350,7 +1350,8 @@ button {
 }
 .landing-form__login {
   position: absolute;
-  top: 50px;
+  top: 50%;
+  transform: translateY(-50%);
   width: 100%;
   padding: 64px;
   border-radius: 12px;
@@ -1360,11 +1361,13 @@ button {
 @media (max-width: 1399.98px) {
   .landing-form__login {
     position: static;
+    margin-top: 370px;
   }
 }
 @media (max-width: 575.98px) {
   .landing-form__login {
     padding: 20px;
+    margin-top: 227px;
   }
 }
 .landing-form__img {
@@ -1372,7 +1375,7 @@ button {
   top: -68px;
   left: -80px;
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 1399.98px) {
   .landing-form__img {
     display: none;
   }
@@ -1457,7 +1460,8 @@ button {
 
 .landing-form__register {
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   right: -485px;
   width: 100%;
   padding: 64px;
@@ -1470,7 +1474,7 @@ button {
 @media (max-width: 1399.98px) {
   .landing-form__register {
     position: static;
-    margin-top: -570px;
+    margin-top: -533px;
   }
 }
 @media (max-width: 991.98px) {
@@ -1481,7 +1485,7 @@ button {
 @media (max-width: 575.98px) {
   .landing-form__register {
     padding: 20px;
-    margin-top: -370px;
+    margin-top: -334px;
   }
 }
 .landing-form__img-register {
@@ -1562,7 +1566,7 @@ button {
   }
 }
 .form-row__input-password {
-  margin-top: 20px;
+  margin-top: 28px;
 }
 .form-row__between {
   margin-top: 29px;

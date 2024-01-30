@@ -16,7 +16,8 @@
 
   &__login {
     position: absolute;
-    top: 50px;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
     padding: 64px;
     border-radius: 12px;
@@ -25,10 +26,12 @@
 
     @include abstracts.screen(xxl) {
       position: static;
+      margin-top: 370px;
     }
 
     @include abstracts.screen(sm) {
       padding: 20px;
+      margin-top: 227px;
     }
   }
 
@@ -37,7 +40,7 @@
     top: -68px;
     left: -80px;
 
-    @include abstracts.screen(xl) {
+    @include abstracts.screen(xxl) {
       display: none;
     }
   }

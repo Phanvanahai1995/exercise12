@@ -3,7 +3,8 @@
 .landing-form {
   &__register {
     position: absolute;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     right: -485px;
     width: 100%;
     padding: 64px;
@@ -15,7 +16,7 @@
 
     @include abstracts.screen(xxl) {
       position: static;
-      margin-top: -570px;
+      margin-top: -533px;
     }
 
     @include abstracts.screen(lg) {
@@ -24,7 +25,7 @@
 
     @include abstracts.screen(sm) {
       padding: 20px;
-      margin-top: -370px;
+      margin-top: -334px;
     }
   }
 

@@ -37,8 +37,8 @@
   &-content {
     max-width: 584px;
     position: absolute;
-    top: 14%;
-    left: 13%;
+    top: 15%;
+    left: 17%;
 
     @include abstracts.screen(xxl) {
       position: static;
@@ -94,7 +94,7 @@
     line-height: 133.333%;
     color: #fff;
 
-    @include abstracts.screen(xl) {
+    @include abstracts.screen(xxl) {
       display: none;
     }
   }
