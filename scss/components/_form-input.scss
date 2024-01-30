@@ -1,3 +1,5 @@
+@use "../abstracts";
+
 .form {
   &-row {
     position: relative;
@@ -37,6 +39,9 @@
 
     &__input-email {
       margin-top: 76px;
+      @include abstracts.screen(sm) {
+        margin-top: 40px;
+      }
     }
 
     &__input-password {
