@@ -2,6 +2,7 @@ var actionLogin = document.querySelector(".landing__switch-tab-login");
 var actionRegister = document.querySelector(".landing__switch-tab-register");
 var hideLogin = document.querySelector(".landing-form__login");
 var hideRegister = document.querySelector(".landing-form__register");
+
 actionRegister.onclick = function () {
   actionLogin.style.backgroundColor = "transparent";
   actionLogin.style.color = "#fff";

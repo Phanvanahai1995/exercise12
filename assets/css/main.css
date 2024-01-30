@@ -1332,14 +1332,16 @@ button {
 }
 @media (max-width: 1199.98px) {
   .landing-form {
-    top: 70%;
-    left: 50%;
-    transform: translateX(-50%);
+    position: fixed;
+    margin-top: 100px;
+    top: 200px;
+    right: 50%;
+    transform: translateX(50%);
   }
 }
 @media (max-width: 767.98px) {
   .landing-form {
-    top: 50%;
+    margin-top: 50px;
     width: 80%;
   }
 }
@@ -1354,7 +1356,6 @@ button {
 }
 @media (max-width: 575.98px) {
   .landing-form__login {
-    top: 0;
     padding: 20px;
   }
 }
@@ -1441,6 +1442,11 @@ button {
   background: #fff;
   opacity: 0;
   visibility: hidden;
+}
+@media (max-width: 1199.98px) {
+  .landing-form__register {
+    top: 50px;
+  }
 }
 @media (max-width: 575.98px) {
   .landing-form__register {
