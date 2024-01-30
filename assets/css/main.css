@@ -1409,7 +1409,7 @@ button {
 }
 @media (max-width: 575.98px) {
   .landing-form__desc {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 500;
   }
 }
@@ -1435,6 +1435,12 @@ button {
 }
 .landing-form__link:hover {
   translate: 0 -10px;
+}
+@media (max-width: 767.98px) {
+  .landing-form__link {
+    width: 30px;
+    height: 30px;
+  }
 }
 .landing-form__link:nth-child(2) {
   background: #1abcff;

@@ -85,7 +85,7 @@
     color: #3e3f5e;
 
     @include abstracts.screen(sm) {
-      font-size: 1.2rem;
+      font-size: 1rem;
       font-weight: 500;
     }
   }
@@ -112,6 +112,11 @@
 
     &:hover {
       translate: 0 -10px;
+    }
+
+    @include abstracts.screen(md) {
+      width: 30px;
+      height: 30px;
     }
   }
 
