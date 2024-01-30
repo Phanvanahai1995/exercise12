@@ -1434,7 +1434,7 @@ button {
 }
 @media (max-width: 575.98px) {
   .landing-form__register {
-    padding: 20px;
+    padding: 30px 30px;
   }
 }
 .landing-form__img-register {
@@ -1512,6 +1512,12 @@ button {
   font-size: 1.4rem;
   font-weight: 700;
   color: #3e3f5e;
+}
+@media (max-width: 575.98px) {
+  .form-row__lbl-check {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 }
 .form-row__lbl-check::before {
   position: absolute;
