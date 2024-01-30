@@ -1219,14 +1219,14 @@ button {
   }
 }
 .landing-content {
-  width: 584px;
+  max-width: 584px;
   position: absolute;
   top: 14%;
   left: 13%;
 }
 @media (max-width: 1199.98px) {
   .landing-content {
-    top: 80px;
+    top: 40px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -1253,6 +1253,12 @@ button {
   line-height: 100%;
   text-transform: uppercase;
   color: #fff;
+}
+@media (max-width: 767.98px) {
+  .landing__heading {
+    margin-top: 10px;
+    font-size: 6rem;
+  }
 }
 .landing__desc {
   width: 374.09px;
@@ -1284,10 +1290,17 @@ button {
   justify-content: center;
   width: 180px;
   height: 54px;
+  padding: 17px 0px 16px 0px;
   color: #3e3f5e;
   font-size: 1.6rem;
   font-weight: 700;
   cursor: pointer;
+}
+@media (max-width: 767.98px) {
+  .landing__switch-tab {
+    width: 120px;
+    height: 34px;
+  }
 }
 .landing__switch-tab-login {
   border-radius: 12px 0px 0px 12px;
@@ -1307,17 +1320,28 @@ button {
   top: 0;
   right: 13%;
 }
+@media (max-width: 1399.98px) {
+  .landing-form {
+    right: 5%;
+  }
+}
 @media (max-width: 1199.98px) {
   .landing-form {
-    top: 37%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
+  }
+}
+@media (max-width: 767.98px) {
+  .landing-form {
+    top: 30%;
+    width: 80%;
   }
 }
 .landing-form__login {
   position: absolute;
   top: 50px;
-  width: 484px;
+  max-width: 100%;
   padding: 64px;
   border-radius: 12px;
   box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
@@ -1327,6 +1351,11 @@ button {
   position: absolute;
   top: -68px;
   left: -80px;
+}
+@media (max-width: 1199.98px) {
+  .landing-form__img {
+    display: none;
+  }
 }
 .landing-form__title {
   text-align: center;
@@ -1382,7 +1411,7 @@ button {
   position: absolute;
   top: 0;
   right: -485px;
-  width: 484px;
+  max-width: 100%;
   padding: 64px;
   border-radius: 12px;
   box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
@@ -1482,7 +1511,7 @@ button {
 }
 .form-row__btn {
   margin-top: 30px;
-  width: 356px;
+  width: 100%;
   height: 54px;
   border-radius: 10px;
   background: #615dfa;

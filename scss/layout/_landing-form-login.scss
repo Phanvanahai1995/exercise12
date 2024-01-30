@@ -7,16 +7,25 @@
   top: 0;
   right: 13%;
 
+  @include abstracts.screen(xxl) {
+    right: 5%;
+  }
+
   @include abstracts.screen(xl) {
-    top: 37%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  @include abstracts.screen(md) {
+    top: 30%;
+    width: 80%;
   }
 
   &__login {
     position: absolute;
     top: 50px;
-    width: 484px;
+    max-width: 100%;
     padding: 64px;
     border-radius: 12px;
     box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
@@ -27,6 +36,10 @@
     position: absolute;
     top: -68px;
     left: -80px;
+
+    @include abstracts.screen(xl) {
+      display: none;
+    }
   }
 
   &__title {

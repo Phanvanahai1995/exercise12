@@ -26,13 +26,13 @@
   }
 
   &-content {
-    width: 584px;
+    max-width: 584px;
     position: absolute;
     top: 14%;
     left: 13%;
 
     @include abstracts.screen(xl) {
-      top: 80px;
+      top: 40px;
       left: 50%;
       transform: translateX(-50%);
     }
@@ -62,6 +62,11 @@
     line-height: 100%;
     text-transform: uppercase;
     color: #fff;
+
+    @include abstracts.screen(md) {
+      margin-top: 10px;
+      font-size: 6rem;
+    }
   }
 
   &__desc {
@@ -93,10 +98,16 @@
     justify-content: center;
     width: 180px;
     height: 54px;
+    padding: 17px 0px 16px 0px;
     color: #3e3f5e;
     font-size: 1.6rem;
     font-weight: 700;
     cursor: pointer;
+
+    @include abstracts.screen(md) {
+      width: 120px;
+      height: 34px;
+    }
   }
 
   &__switch-tab-login {
