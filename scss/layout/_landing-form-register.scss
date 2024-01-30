@@ -17,8 +17,12 @@
       top: 50px;
     }
 
+    @include abstracts.screen(lg) {
+      padding: 30px;
+    }
+
     @include abstracts.screen(sm) {
-      padding: 30px 30px;
+      padding: 20px;
     }
   }
 
@@ -34,7 +38,9 @@
     text-align: center;
 
     @include abstracts.screen(sm) {
-      font-size: 1.2rem;
+      font-size: 1rem;
+      line-height: 1.2;
+      margin-top: 10px;
     }
 
     a {

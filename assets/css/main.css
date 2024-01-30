@@ -1250,6 +1250,12 @@ button {
     margin-top: 10px;
   }
 }
+@media (max-width: 767.98px) {
+  .landing__sub-heading {
+    margin-top: 2px;
+    font-size: 1.6rem;
+  }
+}
 .landing__heading {
   text-align: center;
   font-family: "Titillium Web";
@@ -1261,8 +1267,7 @@ button {
 }
 @media (max-width: 767.98px) {
   .landing__heading {
-    margin-top: 10px;
-    font-size: 6rem;
+    font-size: 4rem;
   }
 }
 .landing__desc {
@@ -1341,7 +1346,7 @@ button {
 }
 @media (max-width: 767.98px) {
   .landing-form {
-    margin-top: 50px;
+    margin-top: -15px;
     width: 80%;
   }
 }
@@ -1383,6 +1388,11 @@ button {
   margin-top: 40px;
   justify-content: space-between;
 }
+@media (max-width: 575.98px) {
+  .landing-form__row-account {
+    margin-top: 20px;
+  }
+}
 .landing-form__line {
   display: flex;
   width: 70px;
@@ -1407,6 +1417,11 @@ button {
   margin-top: 30px;
   justify-content: center;
   gap: 12px;
+}
+@media (max-width: 575.98px) {
+  .landing-form__row-link {
+    margin-top: 15px;
+  }
 }
 .landing-form__link {
   display: flex;
@@ -1448,9 +1463,14 @@ button {
     top: 50px;
   }
 }
+@media (max-width: 991.98px) {
+  .landing-form__register {
+    padding: 30px;
+  }
+}
 @media (max-width: 575.98px) {
   .landing-form__register {
-    padding: 30px 30px;
+    padding: 20px;
   }
 }
 .landing-form__img-register {
@@ -1465,7 +1485,9 @@ button {
 }
 @media (max-width: 575.98px) {
   .landing-form__desc-register {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-top: 10px;
   }
 }
 .landing-form__desc-register a {
@@ -1487,6 +1509,11 @@ button {
   color: #adafca;
   transition: font-size 0.2s, top 0.4s;
 }
+@media (max-width: 575.98px) {
+  .form-row__lbl {
+    font-size: 1.2rem;
+  }
+}
 .form-row__input {
   width: 100%;
   height: 54px;
@@ -1495,6 +1522,11 @@ button {
   border: 1px solid #dedeea;
   background: #fff;
   appearance: none;
+}
+@media (max-width: 575.98px) {
+  .form-row__input {
+    height: 30px;
+  }
 }
 .form-row__input:focus + .form-row__lbl {
   text-align: center;
@@ -1508,9 +1540,14 @@ button {
 .form-row__input-email {
   margin-top: 76px;
 }
-@media (max-width: 575.98px) {
+@media (max-width: 991.98px) {
   .form-row__input-email {
     margin-top: 40px;
+  }
+}
+@media (max-width: 575.98px) {
+  .form-row__input-email {
+    margin-top: 20px;
   }
 }
 .form-row__input-password {
@@ -1521,6 +1558,11 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+@media (max-width: 575.98px) {
+  .form-row__between {
+    margin-top: 15px;
+  }
 }
 .form-row__lbl-check {
   position: relative;
@@ -1562,6 +1604,11 @@ button {
 .form-row__forgot-password:hover {
   color: #23d2e2;
 }
+@media (max-width: 575.98px) {
+  .form-row__forgot-password {
+    font-size: 1.2rem;
+  }
+}
 .form-row__btn {
   margin-top: 30px;
   width: 100%;
@@ -1579,8 +1626,20 @@ button {
 .form-row__btn:hover {
   background: #5651f5;
 }
+@media (max-width: 575.98px) {
+  .form-row__btn {
+    height: 40px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+}
 .form-row__input-register {
   margin-top: 28px;
+}
+@media (max-width: 575.98px) {
+  .form-row__input-register {
+    margin-top: 14px;
+  }
 }
 .form-row__register-btn {
   background: #23d2e2;

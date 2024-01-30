@@ -56,6 +56,11 @@
     @include abstracts.screen(xl) {
       margin-top: 10px;
     }
+
+    @include abstracts.screen(md) {
+      margin-top: 2px;
+      font-size: 1.6rem;
+    }
   }
 
   &__heading {
@@ -68,8 +73,7 @@
     color: #fff;
 
     @include abstracts.screen(md) {
-      margin-top: 10px;
-      font-size: 6rem;
+      font-size: 4rem;
     }
   }
 

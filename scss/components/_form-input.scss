@@ -14,6 +14,10 @@
       font-weight: 600;
       color: #adafca;
       transition: font-size 0.2s, top 0.4s;
+
+      @include abstracts.screen(sm) {
+        font-size: 1.2rem;
+      }
     }
 
     &__input {
@@ -24,6 +28,10 @@
       border: 1px solid #dedeea;
       background: #fff;
       appearance: none;
+
+      @include abstracts.screen(sm) {
+        height: 30px;
+      }
     }
 
     &__input:focus + &__lbl {
@@ -39,8 +47,13 @@
 
     &__input-email {
       margin-top: 76px;
-      @include abstracts.screen(sm) {
+
+      @include abstracts.screen(lg) {
         margin-top: 40px;
+      }
+
+      @include abstracts.screen(sm) {
+        margin-top: 20px;
       }
     }
 
@@ -53,6 +66,10 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+
+      @include abstracts.screen(sm) {
+        margin-top: 15px;
+      }
     }
 
     &__lbl-check {
@@ -61,6 +78,7 @@
       font-size: 1.4rem;
       font-weight: 700;
       color: #3e3f5e;
+
       @include abstracts.screen(sm) {
         font-size: 1.2rem;
         font-weight: 500;
@@ -97,6 +115,10 @@
       &:hover {
         color: #23d2e2;
       }
+
+      @include abstracts.screen(sm) {
+        font-size: 1.2rem;
+      }
     }
 
     &__btn {
@@ -112,15 +134,24 @@
       font-weight: 700;
       cursor: pointer;
       transition: background-color 0.2s;
-    }
 
-    &__btn:hover {
-      background: #5651f5;
+      &:hover {
+        background: #5651f5;
+      }
+
+      @include abstracts.screen(sm) {
+        height: 40px;
+        margin-top: 15px;
+        font-size: 1.2rem;
+      }
     }
 
     // Register
     &__input-register {
       margin-top: 28px;
+      @include abstracts.screen(sm) {
+        margin-top: 14px;
+      }
     }
 
     &__register-btn {
