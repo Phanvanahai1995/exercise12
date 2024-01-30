@@ -1204,11 +1204,32 @@ button {
   top: 0;
   left: 0;
 }
+.landing-decorate {
+  width: 64%;
+  height: 140%;
+  border-radius: 50%;
+  background: url(https://hoanganf8.github.io/htmlcss_project02/image/dot-texture.png) repeat 0 0 #fff;
+  position: absolute;
+  top: -20%;
+  right: -32%;
+}
+@media (max-width: 1199.98px) {
+  .landing-decorate {
+    display: none;
+  }
+}
 .landing-content {
   width: 584px;
   position: absolute;
   top: 14%;
   left: 13%;
+}
+@media (max-width: 1199.98px) {
+  .landing-content {
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 .landing-img {
   text-align: center;
@@ -1242,10 +1263,20 @@ button {
   line-height: 133.333%;
   color: #fff;
 }
+@media (max-width: 1199.98px) {
+  .landing__desc {
+    display: none;
+  }
+}
 .landing__btn {
   display: flex;
   justify-content: center;
   margin-top: 91px;
+}
+@media (max-width: 1199.98px) {
+  .landing__btn {
+    margin-top: 50px;
+  }
 }
 .landing__switch-tab {
   display: flex;
@@ -1276,10 +1307,12 @@ button {
   top: 0;
   right: 13%;
 }
-.landing-form__img {
-  position: absolute;
-  top: -68px;
-  left: -80px;
+@media (max-width: 1199.98px) {
+  .landing-form {
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 .landing-form__login {
   position: absolute;
@@ -1289,6 +1322,11 @@ button {
   border-radius: 12px;
   box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
   background: #fff;
+}
+.landing-form__img {
+  position: absolute;
+  top: -68px;
+  left: -80px;
 }
 .landing-form__title {
   text-align: center;
@@ -1338,6 +1376,33 @@ button {
 }
 .landing-form__link:nth-child(4) {
   background: #fd434f;
+}
+
+.landing-form__register {
+  position: absolute;
+  top: 0;
+  right: -485px;
+  width: 484px;
+  padding: 64px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
+  background: #fff;
+  opacity: 0;
+  visibility: hidden;
+}
+.landing-form__img-register {
+  top: -16px;
+}
+.landing-form__desc-register {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center;
+}
+.landing-form__desc-register a {
+  color: #15cbdc;
+  font-weight: 700;
 }
 
 .form-row {
@@ -1431,6 +1496,15 @@ button {
 }
 .form-row__btn:hover {
   background: #5651f5;
+}
+.form-row__input-register {
+  margin-top: 28px;
+}
+.form-row__register-btn {
+  background: #23d2e2;
+}
+.form-row__register-btn:hover {
+  background: #15cbdc;
 }
 
 /*# sourceMappingURL=main.css.map */

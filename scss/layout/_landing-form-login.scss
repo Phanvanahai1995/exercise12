@@ -1,3 +1,5 @@
+@use "../abstracts";
+
 .landing-form {
   width: 484px;
   height: 100%;
@@ -5,10 +7,10 @@
   top: 0;
   right: 13%;
 
-  &__img {
-    position: absolute;
-    top: -68px;
-    left: -80px;
+  @include abstracts.screen(xl) {
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   &__login {
@@ -19,6 +21,12 @@
     border-radius: 12px;
     box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
     background: #fff;
+  }
+
+  &__img {
+    position: absolute;
+    top: -68px;
+    left: -80px;
   }
 
   &__title {

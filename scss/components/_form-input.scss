@@ -104,5 +104,18 @@
     &__btn:hover {
       background: #5651f5;
     }
+
+    // Register
+    &__input-register {
+      margin-top: 28px;
+    }
+
+    &__register-btn {
+      background: #23d2e2;
+    }
+
+    &__register-btn:hover {
+      background: #15cbdc;
+    }
   }
 }

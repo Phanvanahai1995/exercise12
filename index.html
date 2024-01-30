@@ -16,13 +16,7 @@
   </head>
   <body>
     <div class="landing">
-      <!-- <div class="landing-decorate">
-          <img
-            src="./assets/img/div.landing-decoration.png"
-            alt=""
-            class="landing-decorate__image"
-          />
-        </div> -->
+      <div class="landing-decorate"></div>
       <div class="landing-content">
         <div class="landing-img">
           <img
@@ -61,15 +55,17 @@
                 name="email"
                 id="email"
                 class="form-row__input"
+                required
               />
               <label for="email" class="form-row__lbl">Username or Email</label>
             </div>
             <div class="form-row form-row__input-password">
               <input
-                type="password"
+                type="text"
                 name="password"
                 id="password"
                 class="form-row__input"
+                required
               />
               <label for="password" class="form-row__lbl">Password</label>
             </div>
@@ -81,6 +77,7 @@
                   id="remember"
                   hidden
                   class="form-row__input-check"
+                  required
                 />
                 <label for="remember" class="form-row__lbl-check"
                   >Remember Me</label
@@ -122,6 +119,95 @@
             <a href="#!" class="landing-form__link"
               ><img src="./assets/img/svg-youtube.svg" alt="youtube"
             /></a>
+          </div>
+        </div>
+        <div class="landing-form__register">
+          <div class="landing-form__img landing-form__img-register">
+            <img
+              src="./assets/img/rocket.png.png"
+              alt=""
+              class="landing-form__image"
+            />
+          </div>
+          <h2 class="landing-form__title">Create your Account!</h2>
+          <form action="">
+            <div class="form-row form-row__input-email">
+              <input
+                type="email"
+                name="email-register"
+                id="email-register"
+                class="form-row__input"
+                required
+              />
+              <label for="email-register" class="form-row__lbl"
+                >Your Email</label
+              >
+            </div>
+            <div class="form-row form-row__input-register">
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-row__input"
+                required
+              />
+              <label for="name" class="form-row__lbl">Username</label>
+            </div>
+            <div class="form-row form-row__input-register">
+              <input
+                type="text"
+                name="password-register"
+                id="password-register"
+                class="form-row__input"
+                required
+              />
+              <label for="password-register" class="form-row__lbl"
+                >Password</label
+              >
+            </div>
+            <div class="form-row form-row__input-register">
+              <input
+                type="text"
+                name="repeat-password"
+                id="repeat-password"
+                class="form-row__input"
+                required
+              />
+              <label for="repeat-password" class="form-row__lbl"
+                >Repeat Password</label
+              >
+            </div>
+            <div class="form-row form-row__input-register">
+              <div class="form-row__check">
+                <input
+                  type="checkbox"
+                  name="send-email"
+                  id="send-email"
+                  hidden
+                  class="form-row__input-check"
+                  required
+                />
+                <label for="send-email" class="form-row__lbl-check"
+                  >Send me news and updates via email</label
+                >
+                <label for="send-email"
+                  ><img
+                    src="./assets/img/svg-cross.svg"
+                    alt=""
+                    class="form-row__lbl-close"
+                /></label>
+              </div>
+            </div>
+            <div class="form-row">
+              <button class="form-row__btn form-row__register-btn">
+                Register Now!
+              </button>
+            </div>
+          </form>
+          <div class="landing-form__desc-register">
+            You'll receive a confirmation email in your inbox with a link to
+            activate your account. If you have any problems,
+            <a href="#!">contact us</a>!
           </div>
         </div>
       </div>
