@@ -32,7 +32,7 @@
     left: 13%;
 
     @include abstracts.screen(xl) {
-      top: 40px;
+      top: 30px;
       left: 50%;
       transform: translateX(-50%);
     }
@@ -52,6 +52,10 @@
     line-height: 100%;
     text-transform: uppercase;
     color: #fff;
+
+    @include abstracts.screen(xl) {
+      margin-top: 10px;
+    }
   }
 
   &__heading {
@@ -88,7 +92,7 @@
     justify-content: center;
     margin-top: 91px;
     @include abstracts.screen(xl) {
-      margin-top: 50px;
+      margin-top: 20px;
     }
   }
 

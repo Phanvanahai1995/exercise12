@@ -1226,7 +1226,7 @@ button {
 }
 @media (max-width: 1199.98px) {
   .landing-content {
-    top: 40px;
+    top: 30px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -1244,6 +1244,11 @@ button {
   line-height: 100%;
   text-transform: uppercase;
   color: #fff;
+}
+@media (max-width: 1199.98px) {
+  .landing__sub-heading {
+    margin-top: 10px;
+  }
 }
 .landing__heading {
   text-align: center;
@@ -1281,7 +1286,7 @@ button {
 }
 @media (max-width: 1199.98px) {
   .landing__btn {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 }
 .landing__switch-tab {
@@ -1327,14 +1332,14 @@ button {
 }
 @media (max-width: 1199.98px) {
   .landing-form {
-    top: 35%;
+    top: 25%;
     left: 50%;
     transform: translateX(-50%);
   }
 }
 @media (max-width: 767.98px) {
   .landing-form {
-    top: 30%;
+    top: 15%;
     width: 80%;
   }
 }
@@ -1346,6 +1351,11 @@ button {
   border-radius: 12px;
   box-shadow: 0px 0px 60px 0px rgba(94, 92, 154, 0.12);
   background: #fff;
+}
+@media (max-width: 1199.98px) {
+  .landing-form__login {
+    top: 120px;
+  }
 }
 @media (max-width: 575.98px) {
   .landing-form__login {
