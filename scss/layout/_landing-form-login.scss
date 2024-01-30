@@ -12,13 +12,13 @@
   }
 
   @include abstracts.screen(xl) {
-    top: 25%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
   }
 
   @include abstracts.screen(md) {
-    top: 15%;
+    top: 30%;
     width: 80%;
   }
 
@@ -32,7 +32,7 @@
     background: #fff;
 
     @include abstracts.screen(xl) {
-      top: 120px;
+      top: 0;
     }
 
     @include abstracts.screen(sm) {
@@ -102,6 +102,11 @@
     height: 40px;
     border-radius: 10px;
     background: #3763d2;
+    transition: translate 0.6s;
+
+    &:hover {
+      translate: 0 -10px;
+    }
   }
 
   &__link:nth-child(2) {
